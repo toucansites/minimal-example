@@ -8,6 +8,3 @@ site:
           url: "/"
         - label: "About"
           url: "/about/"
-
-themes:
-    use: "minimal"
