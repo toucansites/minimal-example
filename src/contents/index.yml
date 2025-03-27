@@ -1,6 +1,6 @@
 baseUrl: "http://localhost:3000/"
+language: "en-US"
 title: "Minimal example"
-dateFormat: "MMMM dd, yyyy"
 navigation:
     - label: "Home"
       url: "/"

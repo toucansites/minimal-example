@@ -1,7 +1,8 @@
 ---
+slug: ""
 title: "Home"
 description: "Welcome to the home page."
-template: "pages.home"
+template: pages.home
 ---
 
 # Home
