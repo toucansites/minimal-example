@@ -1,7 +1,16 @@
 id: sitemap
+definesType: true
 contentTypes: 
     include:
         - sitemap
+
+queries:
+    pages:
+        contentType: page
+        scope: list
+        orderBy:
+            - key: lastUpdate
+              direction: desc
 
 engine: 
     id: mustache
