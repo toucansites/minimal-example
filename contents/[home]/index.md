@@ -2,7 +2,8 @@
 slug: ""
 title: "Home"
 description: "Welcome to the home page."
-template: pages.home
+views:
+    html: pages.home
 ---
 
 # Home

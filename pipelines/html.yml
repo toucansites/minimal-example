@@ -5,6 +5,12 @@ scopes:
 queries: 
 
 dataTypes:
+    date:
+        formats:
+            full: 
+                format: "yyyy/MM/dd"
+            year: 
+                format: "y"
 
 contentTypes: 
     include:
@@ -19,7 +25,7 @@ engine:
     options:
         contentTypes: 
             page:
-                template: "pages.default"
+                view: "pages.default"
 output:
     path: "{{slug}}"
     file: index
