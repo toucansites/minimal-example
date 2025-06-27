@@ -1,6 +1,5 @@
-baseUrl: "http://localhost:3000/"
-locale: "en-US"
-title: "Minimal example"
+name: "Minimal example"
+language: "en-US"
 navigation:
     - label: "Home"
       url: "/"

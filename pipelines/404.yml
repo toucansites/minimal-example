@@ -3,12 +3,20 @@ contentTypes:
     include:
         - not-found
 
+dataTypes:
+    date:
+        formats:
+            full: 
+                format: "yyyy/MM/dd"
+            year: 
+                format: "y"
+
 engine: 
     id: mustache
     options:
         contentTypes: 
             not-found:
-                template: "pages.404"
+                view: "pages.404"
 
 output:
     path: ""

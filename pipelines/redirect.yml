@@ -8,7 +8,7 @@ engine:
     options:
         contentTypes: 
             redirect:
-                template: "redirect"
+                view: "redirect"
 
 output:
     path: "{{slug}}"
